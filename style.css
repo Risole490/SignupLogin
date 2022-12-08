@@ -1,0 +1,157 @@
+body {
+    background-color: #1A1A1A;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+	overflow: hidden;
+    margin: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.form__container {
+    background-color: #D9D9D9;
+    width: 402px;
+    height: 540px;
+    padding: 1em;
+}
+
+.signin__container {
+    border-radius: 10px 0 0 10px;
+}
+
+.signup__container {
+    border-radius: 0 10px 10px 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__title {
+    margin: 1em 0em 0.5em 0em;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.socials__container {
+    margin: 0.5em 0 2em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.fa:not(.fa-linkedin) {
+    padding: 10px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-google {
+    background-color: orangered;
+    color: white
+}
+
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+    padding: 8px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.info {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.formulario input {
+    margin-top: 1.2em;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.forgot_pass {
+    font-size: 14px;
+    margin-top: 2em;
+}
+
+.botao {
+    background-color: #000000;
+    color: white;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.botao:hover {
+    transform: scale(1.2);
+}
+
+/* .cover {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.painel__cover {
+    width: 402px;
+    height: 540px;
+    background-image: linear-gradient(black, hwb(75deg 18% 25%), black);
+    padding: 20px;
+}
+
+.cover-right {
+    border-radius: 0 10px 10px 0;
+}
+
+.cover-left {
+    border-radius: 10px 0 0 10px;
+}
+
+.cover_title {
+    margin: 5em 0 1em 0;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    overflow-wrap:normal
+}
+
+.botao_cover {
+    margin-top: 4em;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.cover__container {
+    display: none;
+} */
+
